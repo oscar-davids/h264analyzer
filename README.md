@@ -1,7 +1,7 @@
 # h264analyzer
 
 
-ldecod.exe [-s] -i "<input>".h264 -o <output>.yuv [-r <orig>.yuv] [-xmltrace <tracefile>.xml]
+ldecod.exe [-s] -i \<input\>.h264 -o \<output\>.yuv \[-r \<orig\>.yuv\] [-xmltrace \<tracefile\>.xml]
 
 -s silent decode    ommit unnecessary information during decoding (optional)
 
