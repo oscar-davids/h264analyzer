@@ -764,6 +764,9 @@ void flush_direct_output(VideoParameters *p_Vid, int p_out)
 void write_stored_frame( VideoParameters *p_Vid, FrameStore *fs,int p_out)
 {
   // make sure no direct output field is pending
+  fs->is_output = 1;
+  return; //oscar
+
   flush_direct_output(p_Vid, p_out);
 
   if (fs->is_used<3)
